@@ -1,0 +1,19 @@
+* {
+  color: white !important;
+}
+.banner-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./banners.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner-container .banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
