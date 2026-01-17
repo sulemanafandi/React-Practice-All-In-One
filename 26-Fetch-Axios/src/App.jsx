@@ -1,4 +1,3 @@
-// App.js
 import { useEffect, useState } from 'react'
 import { axiosInstance } from './axios'
 import './App.css'
