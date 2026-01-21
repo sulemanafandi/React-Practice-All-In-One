@@ -18,9 +18,15 @@ function App() {
 
   return (
     <>
+ 
     <h1>{randomNumber}</h1>
     <h1>Re-render Count : {randerCountRef.current}</h1>
       <button onClick={generateRandomNumber}>Generate Random Number</button>
+
+    <h1>{randomNumber}</h1>
+    <h1>Re-render Count : {randerCountRef.current}</h1>
+      <button onClick={generateRandomNumber}>Generate Random Number</button>
+    
     </>
   )
 }
